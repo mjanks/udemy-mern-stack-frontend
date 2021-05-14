@@ -6,9 +6,9 @@ const Users = () => {
   const USERS = [
     {
       id: "u1",
-      name: "Mike Janks",
+      name: "Michael Janks",
       image:
-        "https://www.cleveland.com/resizer/zKqVOuz7Vxscc_2Adj0qc2_T3lc=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/I5IYVJ4H5RCYDF7SZF2BDUGOOI.jpeg",
+        "https://www.toledoblade.com/image/2012/09/18/Cedar-Point-coaster.JPG",
       places: 3,
     },
   ];
