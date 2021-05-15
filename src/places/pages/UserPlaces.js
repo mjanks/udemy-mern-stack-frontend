@@ -12,8 +12,8 @@ const DUMMY_PLACES = [
       "https://www.urbansplatter.com/wp-content/uploads/2014/07/73-686x1024.jpg",
     address: "20 W 34th St, New York, NY 10001",
     location: {
-      lat: 40.7484402,
-      lng: -73.9943977,
+      lat: 40.7484405,
+      lng: -73.9878584,
     },
     creator: "u1",
   },
@@ -25,8 +25,8 @@ const DUMMY_PLACES = [
       "https://www.urbansplatter.com/wp-content/uploads/2014/07/73-686x1024.jpg",
     address: "20 W 34th St, New York, NY 10001",
     location: {
-      lat: 40.7484402,
-      lng: -73.9943977,
+      lat: 40.7484405,
+      lng: -73.9878584,
     },
     creator: "u2",
   },
