@@ -5,6 +5,8 @@ import { CSSTransition } from "react-transition-group";
 import Backdrop from "./Backdrop";
 import "./Modal.css";
 
+// A modal is an overlay like a popup that's built into the page, but
+// doesn't open in a separate window.
 const ModalOverlay = (props) => {
   const content = (
     <div className={`modal ${props.className}`} style={props.style}>

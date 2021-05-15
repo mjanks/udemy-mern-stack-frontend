@@ -33,6 +33,8 @@ const DUMMY_PLACES = [
 ];
 
 const UserPlaces = () => {
+  // useParams gives access to the dynamic segments that react router
+  // is aware of, the userId in this case.
   const userId = useParams().userId;
   const loadedPlaces = DUMMY_PLACES.filter((place) => place.creator === userId);
 
