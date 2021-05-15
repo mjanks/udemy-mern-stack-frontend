@@ -20,6 +20,7 @@ const App = () => {
           <Route path="/" exact>
             <Users />
           </Route>
+          {/* userId is a dynamic segment of the route, denoted by colon */}
           <Route path="/:userId/places" exact>
             <UserPlaces />
           </Route>
