@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Users from "./user/pages/Users";
+import Auth from "./user/pages/Auth";
 import NewPlace from "./places/pages/NewPlace";
 import UserPlaces from "./places/pages/UserPlaces";
 import UpdatePlace from "./places/pages/UpdatePlace";
@@ -20,6 +21,9 @@ const App = () => {
         <Switch>
           <Route path="/" exact>
             <Users />
+          </Route>
+          <Route path="/auth" exact>
+            <Auth />
           </Route>
           {/* userId is a dynamic segment of the route, denoted by colon */}
           <Route path="/:userId/places" exact>
