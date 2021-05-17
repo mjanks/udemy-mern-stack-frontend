@@ -19,7 +19,7 @@ const DUMMY_PLACES = [
   },
   {
     id: "p2",
-    title: "Empire State Building",
+    title: "Emp. State Building",
     description: "Well known skyscraper the world over!",
     imageUrl:
       "https://www.urbansplatter.com/wp-content/uploads/2014/07/73-686x1024.jpg",
